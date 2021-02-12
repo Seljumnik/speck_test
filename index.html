@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+  <body>
+    <h1>Products App</h1>
+
+    <p>Product title</p>
+    <div class="omrs-input-group">
+      <label class="omrs-input-underlined">
+        <input id="nova_stavka" required>
+        <span class="omrs-input-label" style="font-family: sans-serif">Product title</span>
+      </label>
+      <button class="btn btn-dodaj" type="submit" value="Add product">Add product</button>
+    </div>
+    <br />
+    <table>
+      <tr>
+        <td>
+          <span class="inline-flag">
+            <span class="brojac" style="white-space: nowrap;">JAVASCRIPT BROJAC</span>
+          </span>
+        </td>
+        <td>
+            <button class="btn_brisanje" value="Remove products">Remove products</button>
+        </td>
+      </tr>
+    </table>
+    <table id="lista" style="font-size: large; font-family: Arial, Helvetica, sans-serif">
+    </table>
+  </body>
+  
+  <script src="script.js"></script>
+
+</html>
